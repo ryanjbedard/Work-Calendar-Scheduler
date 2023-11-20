@@ -3,6 +3,8 @@
 // in the html.
 $(function () {
   var today = dayjs();
+  var currentHour = dayjs().hour();
+  
 
 
   // TODO: Add a listener for click events on the save button. This code should
@@ -11,9 +13,9 @@ $(function () {
   // function? How can DOM traversal be used to get the "hour-x" id of the
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
-  $("button").click(function()) {
-    $("#saveBTn")
-  }
+  // $("button").click(function()) {
+  //   $("#saveBTn")
+  // }
  
 
 
@@ -23,12 +25,10 @@ $(function () {
   // past, present, and future classes? How can Day.js be used to get the
   // current hour in 24-hour time?
   $(function setTense() {
-    
-    var currentHour = dayjs().hour();
     $(for(i=0; i<currentHour;i++){
       $(if currentHour>i) {
         $(this).addclass('future');
-        $(this).removeclass('past');
+        $(this).removeclass('past present');
 
       }
     })
@@ -40,6 +40,6 @@ $(function () {
 
 
   // TODO: Add code to display the current date in the header of the page.
-  
   $('#currentDay').text(today.format('MMM D, YYYY'));
+  
 });
