@@ -13,9 +13,11 @@ $(function () {
   // function? How can DOM traversal be used to get the "hour-x" id of the
   // time-block containing the button that was clicked? How might the id be
   // useful when saving the description in local storage?
-  // $("button").click(function()) {
-  //   $("#saveBTn")
-  // }
+  $('button').click(function(event) {
+    // event.preventDefault();
+    var userInput = $('textarea').value;
+    localStorage.setItem('userInput', userInput);
+  });
  
 
 
@@ -37,7 +39,7 @@ $(function () {
   // the values of the corresponding textarea elements. HINT: How can the id
   // attribute of each time-block be used to do this?
   $(function inputSave(){
-
+    $('input').getItem
   })
 
 
