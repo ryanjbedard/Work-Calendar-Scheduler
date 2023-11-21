@@ -14,7 +14,7 @@ $(function () {
   $(function userTextEntry(){
     $("button").click(function (event) {
       event.preventDefault();
-      var userInput = $("textarea").value;
+      var userInput = $("#textarea").value;
       localStorage.setItem("userInput", userInput);
     })
   });
@@ -42,5 +42,6 @@ $(function () {
   });
 
   // TODO: Add code to display the current date in the header of the page.
-  $("#currentDay").text(today.format("MMM D, YYYY"));
+  $("#currentDay").text(today.format("MMM D, YYYY, hh:mm:ss"));
+  $(setInterval("#currentDay"), 1000);
 });
