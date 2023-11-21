@@ -15,6 +15,7 @@ Follow the URL below. Enter text into the text fields and click the buttons on t
 To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
 
 ![alt text](./Assets/Images/Screenshot%202023-11-20%20214715.pngAssets)
+https://ryanjbedard.github.io/Work-Calendar-Scheduler/
 
 ## Credits
 

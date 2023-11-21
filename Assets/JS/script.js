@@ -43,5 +43,5 @@ $(function () {
 
   // TODO: Add code to display the current date in the header of the page.
   $("#currentDay").text(today.format("MMM D, YYYY, hh:mm:ss"));
-  $(setInterval("#currentDay"), 1000);
+  setInterval(currentHour, 1000);
 });
