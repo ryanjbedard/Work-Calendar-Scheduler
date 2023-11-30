@@ -12,8 +12,6 @@ N/A
 
 Follow the URL below. Enter text into the text fields and click the buttons on the right to save. Past time blocks will be grey, current time block will be red, and future time blocks will be green.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
 ![alt text](./Assets/Images/Screenshot%202023-11-20%20214715.png)
 https://ryanjbedard.github.io/Work-Calendar-Scheduler/
 
